@@ -35,10 +35,10 @@ classDiagram
   }
 ```
 
-  User "1" *-- "1" Conta
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Cartao
-  User "1" *-- "N" News
-```
+  Usuario "1" *-- "1" Conta
+  Usuario "1" *-- "N" Feature
+  Usuario "1" *-- "1" Cartao
+  Usuario "1" *-- "N" Noticias
+
 
 
