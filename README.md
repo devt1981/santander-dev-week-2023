@@ -33,6 +33,7 @@ classDiagram
     -String: icon
     -String: descricao
   }
+```
 
   User "1" *-- "1" Conta
   User "1" *-- "N" Feature
