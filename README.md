@@ -10,6 +10,7 @@ classDiagram
     -Conta[] conta
     -Cartao[] cartao
     -Noticias[] noticias
+    -Feature[]
   }
 
   class Conta {
