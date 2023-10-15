@@ -5,19 +5,19 @@
 
 ```mermaid
 classDiagram
-  class Usuario {
+  class usuario {
     -String nome
     -Account conta
     -Feature[] features
-    -Card card
+    -Card cartao
     -News[] news
   }
 
   class Account {
     -String numero
     -String agencia
-    -Number balance
-    -Number limit
+    -Number balanco
+    -Number limite
   }
 
   class Feature {
@@ -35,9 +35,9 @@ classDiagram
     -String descricao
   }
 
-  User "1" *-- "1" Account
+  User "1" *-- "1" Conta
   User "1" *-- "N" Feature
-  User "1" *-- "1" Card
+  User "1" *-- "1" Cartao
   User "1" *-- "N" News
 ```
 
