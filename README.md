@@ -7,9 +7,9 @@
 classDiagram
   class Usuario {
     -String: nome
-    -long: conta
-    -long: cartao
-    -News[] news
+    -Conta[] conta
+    -Cartao[] cartao
+    -Noticias[] noticias
   }
 
   class Conta {
