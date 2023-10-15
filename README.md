@@ -5,34 +5,33 @@
 
 ```mermaid
 classDiagram
-  class usuario {
-    -String nome
-    -Account conta
-    -Feature[] features
-    -Card cartao
+  class Usuario {
+    -String: nome
+    -long: conta
+    -long: cartao
     -News[] news
   }
 
-  class Account {
-    -String numero
-    -String agencia
-    -Number balanco
-    -Number limite
+  class Conta {
+    -String: numero
+    -String: agencia
+    -Double: balanco
+    -Double: limite
   }
 
   class Feature {
-    -String icon
-    -String description
+    -String: icon
+    -String: descricao
   }
 
-  class Card {
-    -String numero
-    -Number limite
+  class Cartao {
+    -String: numero
+    -Number: limite
   }
 
-  class News {
-    -String icon
-    -String descricao
+  class Noticias {
+    -String: icon
+    -String: descricao
   }
 
   User "1" *-- "1" Conta
